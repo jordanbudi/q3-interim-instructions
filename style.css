@@ -1,0 +1,47 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#thimble{
+  background-color: yellow;
+  padding: 10px;
+  border: solid;
+  border-width: medium;
+}
+
+.highlight{
+  background-color: lightgrey;
+  color: black;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.highlight-yellow{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  padding: 1px;
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+  zoom: 1.5;
+  margin: 10px 3px 5px 10px;
+  vertical-align: middle;
+}
+
+.details-bar.cleanslate {
+  display: none !important;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+#finished{
+  background-color: lightgray;
+  padding: 25px;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
